@@ -1,0 +1,155 @@
+Release 14.7 par P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+LAPTOP-DMLBTRPA::  Sun Jul 03 12:33:59 2016
+
+par -w -intstyle ise -ol high -mt off interleaver_map.ncd interleaver.ncd
+interleaver.pcf 
+
+
+Constraints file: interleaver.pcf.
+Loading device for application Rf_Device from file '7z010.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "interleaver" is an NCD, version 3.2, device xc7z010, package clg400, speed -3
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 0.950 Volts. (default - Range: 0.950 to 1.050 Volts)
+
+
+Device speed data version:  "PRELIMINARY 1.08 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+   Number of BUFGs                           1 out of 32      3%
+   Number of External IOBs                   4 out of 100     4%
+      Number of LOCed IOBs                   0 out of 4       0%
+
+   Number of OLOGICE2s                       1 out of 100     1%
+   Number of Slices                        606 out of 4400   13%
+   Number of Slice Registers              1062 out of 35200   3%
+      Number used as Flip Flops           1062
+      Number used as Latches                 0
+      Number used as LatchThrus              0
+
+   Number of Slice LUTS                   2094 out of 17600  11%
+   Number of Slice LUT-Flip Flop pairs    2094 out of 17600  11%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 19 secs 
+Finished initial Timing Analysis.  REAL time: 19 secs 
+
+Starting Router
+
+
+Phase  1  : 12909 unrouted;      REAL time: 20 secs 
+
+Phase  2  : 12338 unrouted;      REAL time: 20 secs 
+
+Phase  3  : 5472 unrouted;      REAL time: 24 secs 
+
+Phase  4  : 5472 unrouted; (Setup:0, Hold:365726, Component Switching Limit:0)     REAL time: 26 secs 
+
+Updating file: interleaver.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:517926, Component Switching Limit:0)     REAL time: 32 secs 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:517926, Component Switching Limit:0)     REAL time: 32 secs 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:517926, Component Switching Limit:0)     REAL time: 32 secs 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:517926, Component Switching Limit:0)     REAL time: 32 secs 
+WARNING:Route:522 - Unusually high hold time violation detected among 15 connections.The router will continue and try to fix it 
+	bit_in:I -> memory<405>:B1 -2264
+	bit_in:I -> memory<405>:A1 -2260
+	bit_in:I -> memory<405>:D1 -2146
+	bit_in:I -> memory<859>:B1 -2135
+	bit_in:I -> memory<469>:D1 -2097
+	bit_in:I -> memory<405>:C1 -2096
+	bit_in:I -> memory<851>:C1 -2064
+	bit_in:I -> memory<851>:D1 -2060
+	bit_in:I -> memory<473>:C1 -2052
+	bit_in:I -> memory<859>:A1 -2035
+	bit_in:I -> memory<283>:B1 -2032
+	bit_in:I -> memory<851>:B1 -2031
+	bit_in:I -> memory<791>:C1 -2031
+	bit_in:I -> memory<791>:D1 -2029
+	bit_in:I -> memory<283>:A1 -2022
+
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 41 secs 
+Total REAL time to Router completion: 41 secs 
+Total CPU time to Router completion: 41 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP | BUFGCTRL_X0Y0| No   |  397 |  0.102     |  1.341      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH  | SETUP       |    11.608ns|     8.392ns|       0|           0
+  50%                                       | HOLD        |     0.205ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  COMP "bit_in" OFFSET = IN 20 ns VALID 20  | SETUP       |    13.198ns|     6.802ns|       0|           0
+  ns BEFORE COMP "clk" "RISING"             | HOLD        |     0.006ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 43 secs 
+Total CPU time to PAR completion: 43 secs 
+
+Peak Memory Usage:  470 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 0
+
+Writing design to file interleaver.ncd
+
+
+
+PAR done!

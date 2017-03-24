@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.xst" -ofn "C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.syr" 
+xst -intstyle ise -ifn "C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.xst" -ofn "C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.syr" 
+xst -intstyle ise -ifn "C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.xst" -ofn "C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.syr" 
+xst -intstyle ise -ifn "C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.xst" -ofn "C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-3 interleaver.ngc interleaver.ngd  
+map -intstyle ise -p xc7z010-clg400-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o interleaver_map.ncd interleaver.ngd interleaver.pcf 
+par -w -intstyle ise -ol high -mt off interleaver_map.ncd interleaver.ncd interleaver.pcf 
+vhdtdtfi -prj interleaver -o C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.tfi -module interleaver -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ../interleaver/interleaver/src/interleaver.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc interleaver.ucf -p xc7z010-clg400-3 interleaver.ngc interleaver.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc interleaver.ucf -p xc7z010-clg400-3 interleaver.ngc interleaver.ngd  
+map -intstyle ise -p xc7z010-clg400-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o interleaver_map.ncd interleaver.ngd interleaver.pcf 
+par -w -intstyle ise -ol high -mt off interleaver_map.ncd interleaver.ncd interleaver.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml interleaver.twx interleaver.ncd -o interleaver.twr interleaver.pcf -ucf interleaver.ucf 
+xst -intstyle ise -ifn "C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.xst" -ofn "C:/Users/kia/Dropbox/Progetto_fanucci/xinlix/interleaver.syr" 

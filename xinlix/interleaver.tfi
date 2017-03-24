@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+interleaver instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .bit_in(bit_in), 
+    .bit_out(bit_out)
+    );
+
+

@@ -1,0 +1,279 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Jul 03 12:33:53 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+TIMEGRP clk = BEL "memory_0" BEL "memory_1" BEL "memory_2" BEL "memory_3" BEL
+        "memory_4" BEL "memory_5" BEL "memory_6" BEL "memory_7" BEL "memory_8"
+        BEL "memory_9" BEL "memory_10" BEL "memory_11" BEL "memory_12" BEL
+        "memory_13" BEL "memory_14" BEL "memory_15" BEL "memory_16" BEL
+        "memory_17" BEL "memory_18" BEL "memory_19" BEL "memory_20" BEL
+        "memory_21" BEL "memory_22" BEL "memory_23" BEL "memory_24" BEL
+        "memory_25" BEL "memory_26" BEL "memory_27" BEL "memory_28" BEL
+        "memory_29" BEL "memory_30" BEL "memory_31" BEL "memory_32" BEL
+        "memory_33" BEL "memory_34" BEL "memory_35" BEL "memory_36" BEL
+        "memory_37" BEL "memory_38" BEL "memory_39" BEL "memory_40" BEL
+        "memory_41" BEL "memory_42" BEL "memory_43" BEL "memory_44" BEL
+        "memory_45" BEL "memory_46" BEL "memory_47" BEL "memory_48" BEL
+        "memory_49" BEL "memory_50" BEL "memory_51" BEL "memory_52" BEL
+        "memory_53" BEL "memory_54" BEL "memory_55" BEL "memory_56" BEL
+        "memory_57" BEL "memory_58" BEL "memory_59" BEL "memory_60" BEL
+        "memory_61" BEL "memory_62" BEL "memory_63" BEL "memory_64" BEL
+        "memory_65" BEL "memory_66" BEL "memory_67" BEL "memory_68" BEL
+        "memory_69" BEL "memory_70" BEL "memory_71" BEL "memory_72" BEL
+        "memory_73" BEL "memory_74" BEL "memory_75" BEL "memory_76" BEL
+        "memory_77" BEL "memory_78" BEL "memory_79" BEL "memory_80" BEL
+        "memory_81" BEL "memory_82" BEL "memory_83" BEL "memory_84" BEL
+        "memory_85" BEL "memory_86" BEL "memory_87" BEL "memory_88" BEL
+        "memory_89" BEL "memory_90" BEL "memory_91" BEL "memory_92" BEL
+        "memory_93" BEL "memory_94" BEL "memory_95" BEL "memory_96" BEL
+        "memory_97" BEL "memory_98" BEL "memory_99" BEL "memory_100" BEL
+        "memory_101" BEL "memory_102" BEL "memory_103" BEL "memory_104" BEL
+        "memory_105" BEL "memory_106" BEL "memory_107" BEL "memory_108" BEL
+        "memory_109" BEL "memory_110" BEL "memory_111" BEL "memory_112" BEL
+        "memory_113" BEL "memory_114" BEL "memory_115" BEL "memory_116" BEL
+        "memory_117" BEL "memory_118" BEL "memory_119" BEL "memory_120" BEL
+        "memory_121" BEL "memory_122" BEL "memory_123" BEL "memory_124" BEL
+        "memory_125" BEL "memory_126" BEL "memory_127" BEL "memory_128" BEL
+        "memory_129" BEL "memory_130" BEL "memory_131" BEL "memory_132" BEL
+        "memory_133" BEL "memory_134" BEL "memory_135" BEL "memory_136" BEL
+        "memory_137" BEL "memory_138" BEL "memory_139" BEL "memory_140" BEL
+        "memory_141" BEL "memory_142" BEL "memory_143" BEL "memory_144" BEL
+        "memory_145" BEL "memory_146" BEL "memory_147" BEL "memory_148" BEL
+        "memory_149" BEL "memory_150" BEL "memory_151" BEL "memory_152" BEL
+        "memory_153" BEL "memory_154" BEL "memory_155" BEL "memory_156" BEL
+        "memory_157" BEL "memory_158" BEL "memory_159" BEL "memory_160" BEL
+        "memory_161" BEL "memory_162" BEL "memory_163" BEL "memory_164" BEL
+        "memory_165" BEL "memory_166" BEL "memory_167" BEL "memory_168" BEL
+        "memory_169" BEL "memory_170" BEL "memory_171" BEL "memory_172" BEL
+        "memory_173" BEL "memory_174" BEL "memory_175" BEL "memory_176" BEL
+        "memory_177" BEL "memory_178" BEL "memory_179" BEL "memory_180" BEL
+        "memory_181" BEL "memory_182" BEL "memory_183" BEL "memory_184" BEL
+        "memory_185" BEL "memory_186" BEL "memory_187" BEL "memory_188" BEL
+        "memory_189" BEL "memory_190" BEL "memory_191" BEL "memory_192" BEL
+        "memory_193" BEL "memory_194" BEL "memory_195" BEL "memory_196" BEL
+        "memory_197" BEL "memory_198" BEL "memory_199" BEL "memory_200" BEL
+        "memory_201" BEL "memory_202" BEL "memory_203" BEL "memory_204" BEL
+        "memory_205" BEL "memory_206" BEL "memory_207" BEL "memory_208" BEL
+        "memory_209" BEL "memory_210" BEL "memory_211" BEL "memory_212" BEL
+        "memory_213" BEL "memory_214" BEL "memory_215" BEL "memory_216" BEL
+        "memory_217" BEL "memory_218" BEL "memory_219" BEL "memory_220" BEL
+        "memory_221" BEL "memory_222" BEL "memory_223" BEL "memory_224" BEL
+        "memory_225" BEL "memory_226" BEL "memory_227" BEL "memory_228" BEL
+        "memory_229" BEL "memory_230" BEL "memory_231" BEL "memory_232" BEL
+        "memory_233" BEL "memory_234" BEL "memory_235" BEL "memory_236" BEL
+        "memory_237" BEL "memory_238" BEL "memory_239" BEL "memory_240" BEL
+        "memory_241" BEL "memory_242" BEL "memory_243" BEL "memory_244" BEL
+        "memory_245" BEL "memory_246" BEL "memory_247" BEL "memory_248" BEL
+        "memory_249" BEL "memory_250" BEL "memory_251" BEL "memory_252" BEL
+        "memory_253" BEL "memory_254" BEL "memory_255" BEL "memory_256" BEL
+        "memory_257" BEL "memory_258" BEL "memory_259" BEL "memory_260" BEL
+        "memory_261" BEL "memory_262" BEL "memory_263" BEL "memory_264" BEL
+        "memory_265" BEL "memory_266" BEL "memory_267" BEL "memory_268" BEL
+        "memory_269" BEL "memory_270" BEL "memory_271" BEL "memory_272" BEL
+        "memory_273" BEL "memory_274" BEL "memory_275" BEL "memory_276" BEL
+        "memory_277" BEL "memory_278" BEL "memory_279" BEL "memory_280" BEL
+        "memory_281" BEL "memory_282" BEL "memory_283" BEL "memory_284" BEL
+        "memory_285" BEL "memory_286" BEL "memory_287" BEL "memory_288" BEL
+        "memory_289" BEL "memory_290" BEL "memory_291" BEL "memory_292" BEL
+        "memory_293" BEL "memory_294" BEL "memory_295" BEL "memory_296" BEL
+        "memory_297" BEL "memory_298" BEL "memory_299" BEL "memory_300" BEL
+        "memory_301" BEL "memory_302" BEL "memory_303" BEL "memory_304" BEL
+        "memory_305" BEL "memory_306" BEL "memory_307" BEL "memory_308" BEL
+        "memory_309" BEL "memory_310" BEL "memory_311" BEL "memory_312" BEL
+        "memory_313" BEL "memory_314" BEL "memory_315" BEL "memory_316" BEL
+        "memory_317" BEL "memory_318" BEL "memory_319" BEL "memory_320" BEL
+        "memory_321" BEL "memory_322" BEL "memory_323" BEL "memory_324" BEL
+        "memory_325" BEL "memory_326" BEL "memory_327" BEL "memory_328" BEL
+        "memory_329" BEL "memory_330" BEL "memory_331" BEL "memory_332" BEL
+        "memory_333" BEL "memory_334" BEL "memory_335" BEL "memory_336" BEL
+        "memory_337" BEL "memory_338" BEL "memory_339" BEL "memory_340" BEL
+        "memory_341" BEL "memory_342" BEL "memory_343" BEL "memory_344" BEL
+        "memory_345" BEL "memory_346" BEL "memory_347" BEL "memory_348" BEL
+        "memory_349" BEL "memory_350" BEL "memory_351" BEL "memory_352" BEL
+        "memory_353" BEL "memory_354" BEL "memory_355" BEL "memory_356" BEL
+        "memory_357" BEL "memory_358" BEL "memory_359" BEL "memory_360" BEL
+        "memory_361" BEL "memory_362" BEL "memory_363" BEL "memory_364" BEL
+        "memory_365" BEL "memory_366" BEL "memory_367" BEL "memory_368" BEL
+        "memory_369" BEL "memory_370" BEL "memory_371" BEL "memory_372" BEL
+        "memory_373" BEL "memory_374" BEL "memory_375" BEL "memory_376" BEL
+        "memory_377" BEL "memory_378" BEL "memory_379" BEL "memory_380" BEL
+        "memory_381" BEL "memory_382" BEL "memory_383" BEL "memory_384" BEL
+        "memory_385" BEL "memory_386" BEL "memory_387" BEL "memory_388" BEL
+        "memory_389" BEL "memory_390" BEL "memory_391" BEL "memory_392" BEL
+        "memory_393" BEL "memory_394" BEL "memory_395" BEL "memory_396" BEL
+        "memory_397" BEL "memory_398" BEL "memory_399" BEL "memory_400" BEL
+        "memory_401" BEL "memory_402" BEL "memory_403" BEL "memory_404" BEL
+        "memory_405" BEL "memory_406" BEL "memory_407" BEL "memory_408" BEL
+        "memory_409" BEL "memory_410" BEL "memory_411" BEL "memory_412" BEL
+        "memory_413" BEL "memory_414" BEL "memory_415" BEL "memory_416" BEL
+        "memory_417" BEL "memory_418" BEL "memory_419" BEL "memory_420" BEL
+        "memory_421" BEL "memory_422" BEL "memory_423" BEL "memory_424" BEL
+        "memory_425" BEL "memory_426" BEL "memory_427" BEL "memory_428" BEL
+        "memory_429" BEL "memory_430" BEL "memory_431" BEL "memory_432" BEL
+        "memory_433" BEL "memory_434" BEL "memory_435" BEL "memory_436" BEL
+        "memory_437" BEL "memory_438" BEL "memory_439" BEL "memory_440" BEL
+        "memory_441" BEL "memory_442" BEL "memory_443" BEL "memory_444" BEL
+        "memory_445" BEL "memory_446" BEL "memory_447" BEL "memory_448" BEL
+        "memory_449" BEL "memory_450" BEL "memory_451" BEL "memory_452" BEL
+        "memory_453" BEL "memory_454" BEL "memory_455" BEL "memory_456" BEL
+        "memory_457" BEL "memory_458" BEL "memory_459" BEL "memory_460" BEL
+        "memory_461" BEL "memory_462" BEL "memory_463" BEL "memory_464" BEL
+        "memory_465" BEL "memory_466" BEL "memory_467" BEL "memory_468" BEL
+        "memory_469" BEL "memory_470" BEL "memory_471" BEL "memory_472" BEL
+        "memory_473" BEL "memory_474" BEL "memory_475" BEL "memory_476" BEL
+        "memory_477" BEL "memory_478" BEL "memory_479" BEL "memory_480" BEL
+        "memory_481" BEL "memory_482" BEL "memory_483" BEL "memory_484" BEL
+        "memory_485" BEL "memory_486" BEL "memory_487" BEL "memory_488" BEL
+        "memory_489" BEL "memory_490" BEL "memory_491" BEL "memory_492" BEL
+        "memory_493" BEL "memory_494" BEL "memory_495" BEL "memory_496" BEL
+        "memory_497" BEL "memory_498" BEL "memory_499" BEL "memory_500" BEL
+        "memory_501" BEL "memory_502" BEL "memory_503" BEL "memory_504" BEL
+        "memory_505" BEL "memory_506" BEL "memory_507" BEL "memory_508" BEL
+        "memory_509" BEL "memory_510" BEL "memory_511" BEL "memory_512" BEL
+        "memory_513" BEL "memory_514" BEL "memory_515" BEL "memory_516" BEL
+        "memory_517" BEL "memory_518" BEL "memory_519" BEL "memory_520" BEL
+        "memory_521" BEL "memory_522" BEL "memory_523" BEL "memory_524" BEL
+        "memory_525" BEL "memory_526" BEL "memory_527" BEL "memory_528" BEL
+        "memory_529" BEL "memory_530" BEL "memory_531" BEL "memory_532" BEL
+        "memory_533" BEL "memory_534" BEL "memory_535" BEL "memory_536" BEL
+        "memory_537" BEL "memory_538" BEL "memory_539" BEL "memory_540" BEL
+        "memory_541" BEL "memory_542" BEL "memory_543" BEL "memory_544" BEL
+        "memory_545" BEL "memory_546" BEL "memory_547" BEL "memory_548" BEL
+        "memory_549" BEL "memory_550" BEL "memory_551" BEL "memory_552" BEL
+        "memory_553" BEL "memory_554" BEL "memory_555" BEL "memory_556" BEL
+        "memory_557" BEL "memory_558" BEL "memory_559" BEL "memory_560" BEL
+        "memory_561" BEL "memory_562" BEL "memory_563" BEL "memory_564" BEL
+        "memory_565" BEL "memory_566" BEL "memory_567" BEL "memory_568" BEL
+        "memory_569" BEL "memory_570" BEL "memory_571" BEL "memory_572" BEL
+        "memory_573" BEL "memory_574" BEL "memory_575" BEL "memory_576" BEL
+        "memory_577" BEL "memory_578" BEL "memory_579" BEL "memory_580" BEL
+        "memory_581" BEL "memory_582" BEL "memory_583" BEL "memory_584" BEL
+        "memory_585" BEL "memory_586" BEL "memory_587" BEL "memory_588" BEL
+        "memory_589" BEL "memory_590" BEL "memory_591" BEL "memory_592" BEL
+        "memory_593" BEL "memory_594" BEL "memory_595" BEL "memory_596" BEL
+        "memory_597" BEL "memory_598" BEL "memory_599" BEL "memory_600" BEL
+        "memory_601" BEL "memory_602" BEL "memory_603" BEL "memory_604" BEL
+        "memory_605" BEL "memory_606" BEL "memory_607" BEL "memory_608" BEL
+        "memory_609" BEL "memory_610" BEL "memory_611" BEL "memory_612" BEL
+        "memory_613" BEL "memory_614" BEL "memory_615" BEL "memory_616" BEL
+        "memory_617" BEL "memory_618" BEL "memory_619" BEL "memory_620" BEL
+        "memory_621" BEL "memory_622" BEL "memory_623" BEL "memory_624" BEL
+        "memory_625" BEL "memory_626" BEL "memory_627" BEL "memory_628" BEL
+        "memory_629" BEL "memory_630" BEL "memory_631" BEL "memory_632" BEL
+        "memory_633" BEL "memory_634" BEL "memory_635" BEL "memory_636" BEL
+        "memory_637" BEL "memory_638" BEL "memory_639" BEL "memory_640" BEL
+        "memory_641" BEL "memory_642" BEL "memory_643" BEL "memory_644" BEL
+        "memory_645" BEL "memory_646" BEL "memory_647" BEL "memory_648" BEL
+        "memory_649" BEL "memory_650" BEL "memory_651" BEL "memory_652" BEL
+        "memory_653" BEL "memory_654" BEL "memory_655" BEL "memory_656" BEL
+        "memory_657" BEL "memory_658" BEL "memory_659" BEL "memory_660" BEL
+        "memory_661" BEL "memory_662" BEL "memory_663" BEL "memory_664" BEL
+        "memory_665" BEL "memory_666" BEL "memory_667" BEL "memory_668" BEL
+        "memory_669" BEL "memory_670" BEL "memory_671" BEL "memory_672" BEL
+        "memory_673" BEL "memory_674" BEL "memory_675" BEL "memory_676" BEL
+        "memory_677" BEL "memory_678" BEL "memory_679" BEL "memory_680" BEL
+        "memory_681" BEL "memory_682" BEL "memory_683" BEL "memory_684" BEL
+        "memory_685" BEL "memory_686" BEL "memory_687" BEL "memory_688" BEL
+        "memory_689" BEL "memory_690" BEL "memory_691" BEL "memory_692" BEL
+        "memory_693" BEL "memory_694" BEL "memory_695" BEL "memory_696" BEL
+        "memory_697" BEL "memory_698" BEL "memory_699" BEL "memory_700" BEL
+        "memory_701" BEL "memory_702" BEL "memory_703" BEL "memory_704" BEL
+        "memory_705" BEL "memory_706" BEL "memory_707" BEL "memory_708" BEL
+        "memory_709" BEL "memory_710" BEL "memory_711" BEL "memory_712" BEL
+        "memory_713" BEL "memory_714" BEL "memory_715" BEL "memory_716" BEL
+        "memory_717" BEL "memory_718" BEL "memory_719" BEL "memory_720" BEL
+        "memory_721" BEL "memory_722" BEL "memory_723" BEL "memory_724" BEL
+        "memory_725" BEL "memory_726" BEL "memory_727" BEL "memory_728" BEL
+        "memory_729" BEL "memory_730" BEL "memory_731" BEL "memory_732" BEL
+        "memory_733" BEL "memory_734" BEL "memory_735" BEL "memory_736" BEL
+        "memory_737" BEL "memory_738" BEL "memory_739" BEL "memory_740" BEL
+        "memory_741" BEL "memory_742" BEL "memory_743" BEL "memory_744" BEL
+        "memory_745" BEL "memory_746" BEL "memory_747" BEL "memory_748" BEL
+        "memory_749" BEL "memory_750" BEL "memory_751" BEL "memory_752" BEL
+        "memory_753" BEL "memory_754" BEL "memory_755" BEL "memory_756" BEL
+        "memory_757" BEL "memory_758" BEL "memory_759" BEL "memory_760" BEL
+        "memory_761" BEL "memory_762" BEL "memory_763" BEL "memory_764" BEL
+        "memory_765" BEL "memory_766" BEL "memory_767" BEL "memory_768" BEL
+        "memory_769" BEL "memory_770" BEL "memory_771" BEL "memory_772" BEL
+        "memory_773" BEL "memory_774" BEL "memory_775" BEL "memory_776" BEL
+        "memory_777" BEL "memory_778" BEL "memory_779" BEL "memory_780" BEL
+        "memory_781" BEL "memory_782" BEL "memory_783" BEL "memory_784" BEL
+        "memory_785" BEL "memory_786" BEL "memory_787" BEL "memory_788" BEL
+        "memory_789" BEL "memory_790" BEL "memory_791" BEL "memory_792" BEL
+        "memory_793" BEL "memory_794" BEL "memory_795" BEL "memory_796" BEL
+        "memory_797" BEL "memory_798" BEL "memory_799" BEL "memory_800" BEL
+        "memory_801" BEL "memory_802" BEL "memory_803" BEL "memory_804" BEL
+        "memory_805" BEL "memory_806" BEL "memory_807" BEL "memory_808" BEL
+        "memory_809" BEL "memory_810" BEL "memory_811" BEL "memory_812" BEL
+        "memory_813" BEL "memory_814" BEL "memory_815" BEL "memory_816" BEL
+        "memory_817" BEL "memory_818" BEL "memory_819" BEL "memory_820" BEL
+        "memory_821" BEL "memory_822" BEL "memory_823" BEL "memory_824" BEL
+        "memory_825" BEL "memory_826" BEL "memory_827" BEL "memory_828" BEL
+        "memory_829" BEL "memory_830" BEL "memory_831" BEL "memory_832" BEL
+        "memory_833" BEL "memory_834" BEL "memory_835" BEL "memory_836" BEL
+        "memory_837" BEL "memory_838" BEL "memory_839" BEL "memory_840" BEL
+        "memory_841" BEL "memory_842" BEL "memory_843" BEL "memory_844" BEL
+        "memory_845" BEL "memory_846" BEL "memory_847" BEL "memory_848" BEL
+        "memory_849" BEL "memory_850" BEL "memory_851" BEL "memory_852" BEL
+        "memory_853" BEL "memory_854" BEL "memory_855" BEL "memory_856" BEL
+        "memory_857" BEL "memory_858" BEL "memory_859" BEL "memory_860" BEL
+        "memory_861" BEL "memory_862" BEL "memory_863" BEL "memory_864" BEL
+        "memory_865" BEL "memory_866" BEL "memory_867" BEL "memory_868" BEL
+        "memory_869" BEL "memory_870" BEL "memory_871" BEL "memory_872" BEL
+        "memory_873" BEL "memory_874" BEL "memory_875" BEL "memory_876" BEL
+        "memory_877" BEL "memory_878" BEL "memory_879" BEL "memory_880" BEL
+        "memory_881" BEL "memory_882" BEL "memory_883" BEL "memory_884" BEL
+        "memory_885" BEL "memory_886" BEL "memory_887" BEL "memory_888" BEL
+        "memory_889" BEL "memory_890" BEL "memory_891" BEL "memory_892" BEL
+        "memory_893" BEL "memory_894" BEL "memory_895" BEL "memory_896" BEL
+        "memory_897" BEL "memory_898" BEL "memory_899" BEL "memory_900" BEL
+        "memory_901" BEL "memory_902" BEL "memory_903" BEL "memory_904" BEL
+        "memory_905" BEL "memory_906" BEL "memory_907" BEL "memory_908" BEL
+        "memory_909" BEL "memory_910" BEL "memory_911" BEL "memory_912" BEL
+        "memory_913" BEL "memory_914" BEL "memory_915" BEL "memory_916" BEL
+        "memory_917" BEL "memory_918" BEL "memory_919" BEL "memory_920" BEL
+        "memory_921" BEL "memory_922" BEL "memory_923" BEL "memory_924" BEL
+        "memory_925" BEL "memory_926" BEL "memory_927" BEL "memory_928" BEL
+        "memory_929" BEL "memory_930" BEL "memory_931" BEL "memory_932" BEL
+        "memory_933" BEL "memory_934" BEL "memory_935" BEL "memory_936" BEL
+        "memory_937" BEL "memory_938" BEL "memory_939" BEL "memory_940" BEL
+        "memory_941" BEL "memory_942" BEL "memory_943" BEL "memory_944" BEL
+        "memory_945" BEL "memory_946" BEL "memory_947" BEL "memory_948" BEL
+        "memory_949" BEL "memory_950" BEL "memory_951" BEL "memory_952" BEL
+        "memory_953" BEL "memory_954" BEL "memory_955" BEL "memory_956" BEL
+        "memory_957" BEL "memory_958" BEL "memory_959" BEL "memory_960" BEL
+        "memory_961" BEL "memory_962" BEL "memory_963" BEL "memory_964" BEL
+        "memory_965" BEL "memory_966" BEL "memory_967" BEL "memory_968" BEL
+        "memory_969" BEL "memory_970" BEL "memory_971" BEL "memory_972" BEL
+        "memory_973" BEL "memory_974" BEL "memory_975" BEL "memory_976" BEL
+        "memory_977" BEL "memory_978" BEL "memory_979" BEL "memory_980" BEL
+        "memory_981" BEL "memory_982" BEL "memory_983" BEL "memory_984" BEL
+        "memory_985" BEL "memory_986" BEL "memory_987" BEL "memory_988" BEL
+        "memory_989" BEL "memory_990" BEL "memory_991" BEL "memory_992" BEL
+        "memory_993" BEL "memory_994" BEL "memory_995" BEL "memory_996" BEL
+        "memory_997" BEL "memory_998" BEL "memory_999" BEL "memory_1000" BEL
+        "memory_1001" BEL "memory_1002" BEL "memory_1003" BEL "memory_1004"
+        BEL "memory_1005" BEL "memory_1006" BEL "memory_1007" BEL
+        "memory_1008" BEL "memory_1009" BEL "memory_1010" BEL "memory_1011"
+        BEL "memory_1012" BEL "memory_1013" BEL "memory_1014" BEL
+        "memory_1015" BEL "memory_1016" BEL "memory_1017" BEL "memory_1018"
+        BEL "memory_1019" BEL "memory_1020" BEL "memory_1021" BEL
+        "memory_1022" BEL "memory_1023" BEL "actualIndex_0" BEL
+        "actualIndex_1" BEL "actualIndex_2" BEL "actualIndex_3" BEL
+        "actualIndex_4" BEL "actualIndex_5" BEL "actualIndex_6" BEL
+        "actualIndex_7" BEL "actualIndex_8" BEL "actualIndex_9" BEL
+        "actualIndex_10" BEL "actualIndex_11" BEL "actualIndex_12" BEL
+        "actualIndex_13" BEL "actualIndex_14" BEL "actualIndex_15" BEL
+        "actualIndex_16" BEL "actualIndex_17" BEL "actualIndex_18" BEL
+        "actualIndex_19" BEL "actualIndex_20" BEL "actualIndex_21" BEL
+        "actualIndex_22" BEL "actualIndex_23" BEL "actualIndex_24" BEL
+        "actualIndex_25" BEL "actualIndex_26" BEL "actualIndex_27" BEL
+        "actualIndex_28" BEL "actualIndex_29" BEL "actualIndex_30" BEL
+        "actualIndex_31" BEL "bit_out" BEL "GND_6_o_clk_DFF_1058" BEL
+        "actualIndex_0_1" BEL "actualIndex_1_1" BEL "actualIndex_2_1" BEL
+        "actualIndex_3_1" BEL "clk_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH 50%;
+COMP "bit_in" OFFSET = IN 20 ns VALID 20 ns BEFORE COMP "clk" "RISING";
+SCHEMATIC END;
+
